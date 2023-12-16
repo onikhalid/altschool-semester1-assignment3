@@ -176,6 +176,8 @@ main {
             display: flex;
             margin-right: 8px;
             border: 1.75px solid transparent;
+            background: #646E7A;
+
 
             &:focus-within,
             &:hover {
