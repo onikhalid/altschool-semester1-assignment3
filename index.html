@@ -1,11 +1,117 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
+
 <body>
-    
+    <header>
+        <nav>
+            <a href="/" class="logo">
+                <img src="./assets/images/logo.png" alt="wp-pusher logo">
+            </a>
+
+            <ul class="nav_links">
+                <li><a href="/">Download</a></li>
+                <li><a href="/">Learn More</a></li>
+                <li><a href="/">Pricing</a></li>
+                <li><a href="/">Help</a></li>
+                <li><a class="cta" href="/">Account</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <main>
+        <article id="#main">
+
+            <section class="left">
+                <h1 class="grey_bottom_border">Checkout</h1>
+                <fieldset class="grey_bottom_border">
+                    <legend><span class="circle">1</span>Your Basic Information</legend>
+                    <div class="left_group1">
+                        <div class="inputdiv">
+                            <label for="firstName">First Name</label>
+                            <input type="text" placeholder="Jane" id="firstName" required aria-required="true" />
+                        </div>
+                        <div class="inputdiv">
+                            <label for="lastName">Last Name</label>
+                            <input type="text" placeholder="Doe" id="lastName" required aria-required="true" />
+                        </div>
+                    </div>
+
+
+                    <div class="inputdiv left_group2">
+                        <label for="lastName">Email</label>
+                        <input type="email" placeholder="janedoe@example.com" id="email" required
+                            aria-required="true" />
+                    </div>
+                </fieldset>
+
+                <fieldset class="grey_bottom_border">
+                    <legend><span class="circle">2</span>Your Payment Information</legend>
+                    <div class="creditcardinput">
+                        <div class="inputdiv">
+                            <label for="CardNumber">Credit Card</label>
+                            <div class="credit-card-input">
+                                <input type="text" placeholder="Card Number" id="CardNumber" required
+                                    aria-required="true" />
+                                <input type="text" class="shrink" placeholder="MM/YY" id="ExpiryDate" required
+                                    aria-required="true" />
+                                <input type="text" class="shrink" placeholder="CVC" id="CVC" required
+                                    aria-required="true" />
+                            </div>
+                </fieldset>
+
+                <footer class="left_footer">
+                    <button>Buy WP Pusher</button>
+                    <p><img src="./assets/images/question_mark.svg" alt="info icon" /><span>Need any help?</span> Don’t
+                        hesitate to <a href="/">contact support!</a></p>
+                    <img src="./assets/images/powered_by_stripe.svg" alt="stripe logo">
+                </footer>
+            </section>
+
+
+
+            <section class="right">
+                <header class="right_header">
+                    <h3>Freelancer</h3>
+                    <h2><sup>$</sup>99/<span>year</span></h2>
+                    <p>Automatically renews after 1 year</p>
+                </header>
+
+                <div class="right_main">
+                    <ul>
+                        <li><img src="./assets/images/check_icon.svg" alt="check_icon">
+                            <p>Use on <span>5</span> client sites</p>
+                        </li>
+                        <li><img src="./assets/images/check_icon.svg" alt="check_icon">Private repositories</li>
+                        <li><img src="./assets/images/check_icon.svg" alt="check_icon">Email support</li>
+                    </ul>
+                    <p>
+                        Need <span>20</span> client sites?<br/>
+                        <a href="/">Switch to the <span>Agency</span> plan.</a>
+
+                    </p>
+                </div>
+                <footer class="right_footer">
+                    <p>
+                        FTP is horrible to deal with. <span>WP Pusher</span> solves that issue, and the customer support
+                        is awesome!
+                    </p>
+                    <div class="user">
+                        <img src="./assets/images/kirk.png" alt="user photo">
+                        <p>Kirk Beard</p>
+                    </div>
+                </footer>
+            </section>
+
+        </article>
+    </main>
 </body>
+
 </html>
