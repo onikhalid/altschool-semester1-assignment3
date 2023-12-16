@@ -221,7 +221,7 @@ main {
         }
 
         >* {
-            padding-inline: 1rem;
+            padding-inline: 1.5rem;
 
             @media (min-width: 1024px) {
                 padding-inline: 2.5rem;
@@ -331,7 +331,7 @@ main {
         gap: 2.5rem;
         background: #1179BF;
         color: white;
-        padding: 1rem;
+        padding: 1.5rem;
         line-height: normal;
 
 
